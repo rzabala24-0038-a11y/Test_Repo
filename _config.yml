@@ -1,5 +1,2 @@
 title: "Arcade Retro Site"
 description: "An arcade-style pixelated website"
-remote_theme: HackBulgaria/pixel
-plugins:
-  - jekyll-remote-theme
