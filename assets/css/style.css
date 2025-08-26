@@ -1,0 +1,32 @@
+/* Pixel font + colors */
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: #33ff33;
+  image-rendering: pixelated;
+  text-shadow: 0 0 4px #00ff00;
+  padding: 20px;
+}
+
+/* Retro links/buttons */
+a, .btn {
+  color: #ffcc00;
+  text-decoration: none;
+  padding: 8px 14px;
+  border: 2px solid #33ff33;
+  display: inline-block;
+  margin-top: 10px;
+  background: rgba(0,0,0,0.3);
+  text-shadow: 0 0 4px #ffcc00;
+}
+
+/* Pixel grid overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(to right, rgba(0,255,0,0.08) 0, rgb
+                              
